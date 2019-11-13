@@ -1,0 +1,268 @@
+    /*NAME: ABIODUN SUKURAT
+   TITLE: NETFLIX CLONE
+   TLW: GROUP 3 MORNING SESSION
+   ASSIGNMENT 2
+   submitted on 13th of november 2019*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/* ctrl and forward slash to show the comment tag */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+}
+/*HEADER*/
+.logo{
+    margin-top: auto;
+    color: red;
+    font-size: 2em;
+    font-weight:900;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+    
+.header-container{
+    background: url(../images/netflixbck.jpg)center center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.sign-in{
+    background: red;
+    border: none;
+    width: 110px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+hr{
+    color:grey;
+    background-color:grey;
+    height: 5px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+}
+h3{
+    color: white; 
+    text-align: center;
+    font-size: 1.6em;
+}
+h4{
+    color:grey;
+    text-align: center;
+    font-size:1.5em;
+}
+.span-container{
+    padding-bottom: 20px;
+}
+span{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em; 
+}
+#span-one{
+    color: limegreen;
+    padding-right: 300px; 
+    padding-left: 200px;
+    padding-bottom: 100px;
+}
+#span-two{
+    padding-right: 400px;
+}
+.progress{
+    border: none;
+    background:rgba(59, 55, 55, 0.3);
+}
+
+.progress-bar{
+    width: 50%; 
+    background: limegreen; 
+    height: 30px;
+    border: none; 
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.pro{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position:relative;
+    right: 0;
+    top: -10px;
+    right: -710px;
+    left: 650px;
+    border-radius: 50%;
+}
+.pro2{
+     content: "";
+     width: 40px;
+     height: 40px;
+     background-color: white;
+     position:relative;
+     right: 0;
+     top: -50px;
+     right: -1112px;
+     border-radius: 50%;
+}
+/*first - container*/
+.red-button{
+    position: relative;
+    width: 350px;
+    top: 50%;
+    left: 35%;
+    background: red;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    
+}
+.white-button{
+    background-color:black; 
+    color:white; 
+    border: 2px solid white;
+    font-size: 1.5em;
+    margin-bottom: 75px;
+}
+ h2{
+     color: white;
+     font-weight: bolder;
+     font-size: 3.0em;
+ }
+ .enjoy-div{
+    margin-left: 100px;
+     margin-top: 100px;
+ }
+ .enjoy{
+    color:white;
+    text-align: left;
+}
+.try{
+    padding: 10px;
+    margin-right: auto;
+}
+
+video{
+    max-width: 100%;
+    height: auto;
+    border: 4px solid rgba(131, 127, 127, 0.3); 
+    margin-top: -350px; 
+    margin-right: 10%;
+}
+.first-video{
+    float: right; 
+}
+.clear{
+    clear: right;
+}
+
+/* second-container*/
+img{
+    width:400px;
+    height:250px;
+    margin-left:15px;
+    padding-top: 50px;
+}
+.download{
+    float: right;
+    margin-top: -410px;
+    margin-right: 120px;
+    padding-top: 50px;
+}
+.mobile{
+    content: "";
+    width: 300px;
+    height: 100px;
+    background: none;
+    position:relative;
+    top: -30px;
+    left: 70px;
+    border-radius: 12px;
+    border: 4px solid rgba(59, 55, 55, 0.3);
+}
+/* third-container*/
+/* faq-container*/
+    .FAQ{
+        color: white;
+        font-weight: 900;
+        font-size: 3em;
+        padding-top: 40px;
+    }
+
+    .gray-button{
+        position: relative;
+        width: 650px;
+        top: 50%;
+        left: 25%;
+        background:rgba(131, 127, 127, 0.3);
+        color: white;
+        border: none;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.4em;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* footer*/
+footer{
+    background: black;
+    padding: 3em;
+}
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+.flex-item {
+    
+    padding: 5px;
+    width: 200px;
+    height: 100%;
+    margin-top: 10px; 
+    line-height: 40px;  
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+.footer-heading{
+    color:grey;
+    text-decoration: none;
+    text-justify: initial;
+    list-style: none;
+}
+.icon{
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 500px;
+    padding-bottom: 5em;
+    list-style: none;
+   
+}
